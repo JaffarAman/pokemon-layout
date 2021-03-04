@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ///////TOP HEADER STYLING//// */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid lightgrey;
+}
+
+.header ul li{
+        /* display: flex; */
+        display: inline-block;
+        /* border: 1px solid black; */
+        padding: 8px;
+        width: auto;
+        cursor: pointer;
+                
+}
+.logo{
+    background-color: white;
+    box-shadow:  2px 0px 10px  2px gray;
+
+}
+/* ////////xxxxxxxxxx////////// */
+
+
+/* //////NAVBAR STYLING /////// */
+.navbar{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.navbar ul li{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 120px;
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+    font-size: small;
+    height: 100px;
+    cursor: pointer;
+}
+.navbar img{
+    /* border: 1px solid blue; */
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom:5px;
+    
+}
+
+/* /////NAVBAR BORDER-BOTTOM////// */
+.colorgrey{
+    background-color: #919191;
+    border-bottom: 4px solid #919191 ;
+    color: white !important;
+}
+.colorred{
+    border-bottom:5px solid #E3350D !important ;
+}
+.colorlightred{
+    border-bottom:5px solid #EE6B2F !important ;
+
+}
+.coloryellow{
+    border-bottom:5px solid #E6BC2F !important ;
+
+}
+.colorgreen{
+    border-bottom:5px solid #4DAD5B !important ;
+
+}
+.colorsky{
+    border-bottom:5px solid #7DEAFD !important ;
+
+}
+.colorblue{
+    border-bottom:5px solid #1B53BA !important ;
+
+}
+
+/* ///////NAVBAR HOVER EFFECT STYLING/////// */
+.colorred:hover{
+        background-color: #E3350D;
+        color: white;
+        transition: all 1s ease;
+    }
+.colorlightred:hover{
+    background-color: #EE6B2F;
+    color: white;
+    transition: all 1s ease;
+
+}
+.coloryellow:hover{
+    background-color: #E6BC2F;
+    color: white;
+    transition: all 1s ease;
+
+}
+.colorgreen:hover{
+    background-color: #4DAD5B;
+    color: white;
+    transition: all 1s ease;
+
+}
+.colorsky:hover{
+    background-color: #7DEAFD;
+    color: white;
+    transition: all 1s ease;
+
+}
+.colorblue:hover{
+    background-color: #1B53BA;
+    color: white;
+    transition: all 1s ease;
+
+}
+/* /////////xxxxxxxxxxxxxx//////////// */
+
+.topcontain{
+    width: 100%;
+    background-image: url("img/container_bg.png");
+    /* border: 1px solid red;    */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+
+.carddiv{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    /* border: 2px solid blue; */
+    background-color: white;
+}
+.topcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card1{
+    width: 400px;
+    /* border: 1px solid purple; */
+    margin: 10px;
+    background-color: #A4A4A4;
+    cursor: pointer;
+}
+.card1:hover{
+    background-color: #a19f9f;
+    
+
+}
+.word1{
+   
+   
+    padding: 10px;
+    height: 130px;
+    
+}
+.word1 h3{
+    color: black;
+    /* text-align: justify; */
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.word1 p{
+    color: gray;
+}
+.card2{
+    width: 400px;
+    background-color: #1847D7;
+    /* border: 1px solid lime; */
+    margin: 10px;
+    cursor: pointer;
+
+}
+.card2:hover{
+    background-color: #0643fa;
+
+
+}
+.word2{
+    
+    padding: 10px;
+    height: 130px;
+}
+.word2 h3{
+    color: white;
+    /* text-align: justify; */
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.word2 p{
+    color: wheat;
+}
+.card1 img , .card2 img{
+    width: 100%;
+    /* border: 1px solid brown; */
+    
+}
+
+.bottomcars{
+    /* border: 1px solid hotpink; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+.bottomcars .card3 , .card4 , .card5{
+    width: 260px;
+    /* border: 1px solid purple; */
+    border-radius: 5px;
+    height: 260px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.bottomcars img{
+    width: 100%;
+}
+.word3{
+    background-color: #4DAD5B;
+    height: 100px;
+}
+.word4{
+    background-color: #FF2A8E;
+    height: 100px;
+    
+}
+.word5{
+    background-color: #313131;
+    height: 130px;
+
+}
+.word3 h3{
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.word4 h3{
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+.word5 h3{
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+
+.imgcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid black; */
+    background-image: url("img/container_bg.png");
+
+}
+.featured{
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    border: 1px solid red;
+    padding: 8px;
+    background-color: black;
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    border-radius: 8px 8px 0 0 ;
+}
+.featured img{
+    width: 25px !important;
+}
+.img1 , .img2 , .img3 , .img4 , .img5{
+    width: 250px;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-color: rgb(82, 82, 82);
+
+}
+.imgcontainer img{
+    width: 100%;
+}
+
+
+
+/* /////bottomcard styling/// */
+.bottomcards{
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url("img/container_bg.png");
+    /* border: 2px solid lime; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottomdiv{
+    /* border: 3px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 5px;
+    background-color: white;
+}
+.bottomdiv div{
+    /* border: 1px solid brown; */
+    width: 275px;
+    margin: 10px 10px;
+    cursor: pointer;
+    /* user-select: none; */
+}
+.bottomdiv img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card6{
+    border-radius: 5px;
+    background-color: #E3350D;
+}
+.card7{
+    background-color: #DAA31C;
+    border-radius: 5px;
+}
+
+.card8{
+    background-color: #7F5AC9;
+    border-radius: 5px;
+    
+}
+.card9{
+    border-radius: 5px;
+    background-color: #1B82B1;
+}
+
+.card10{
+    border-radius: 5px;
+    background-color: #313131;
+}
+
+.card10 h2{
+    background-color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 20px 0;
+    color: gray;
+    
+}
+.card11{
+    border-radius: 5px;
+    background-color: #B38AC6;
+}
+
+.bottomdiv h3{
+    color: white;
+    font-size: 22px ;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.bottomdiv p{
+    padding: 8px;
+    font-family: sans-serif;
+    /* font-size: small; */
+    margin-bottom: 10px;
+}
+
+.expbtn{
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.expbtn p{
+    /* border: 2px solid orange; */
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px ;
+}
+/* /////////footer styling//// */
+.footer{
+    border: 2px solid black;
+    background-color: #1F1F1F;
+    padding: 25px 10;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.footer div{
+    /* border: 1px solid red; */
+    width: 300px;
+    margin: 20px 10px;
+
+}
+.links li{
+    color: gray;
+    padding: 3px;
+    list-style: disc;
+    list-style-position: inside;
+}
+.social ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+
+.terms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.terms div{
+    margin: 0;
+}
+.termsdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.termsdiv small{
+    color: grey;
+    text-decoration: underline;
+
+}
+.copy{
+    margin-top: 30px !important;
+    color: grey;
+}
